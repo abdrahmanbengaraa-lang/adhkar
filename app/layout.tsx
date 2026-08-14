@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description: "منصة إسلامية تضم أذكار الصباح والمساء، حصن المسلم، والأدعية الصحيحة.",
   keywords: ["أذكار", "أذكار الصباح", "أذكار المساء", "أدعية", "حصن المسلم"],
   authors: [{ name: "عبد الرحمان بن قرعة" }],
+  manifest: "/manifest.json", // <-- أضفنا هذا السطر هنا لربط التطبيق
   other: {
     "google-site-verification": "aThYdFWzCCz-4XNI4VWdfRrTQi6w0JZ49FgZchriZ94",
   },
