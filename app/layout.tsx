@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Script from "next/script";
+import MaintenanceBanner from "./MaintenanceBanner";
 
 export const metadata: Metadata = {
   title: "مشكاة الهداية - منصة شاملة للأذكار والأدعية",
@@ -45,6 +46,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body>
+        <MaintenanceBanner />
         {children}
       </body>
     </html>
